@@ -117,7 +117,7 @@ function gameLoop () {
     p.move();
     if(isCollided(p,e1)||isCollided(p,e2)||isCollided(p,e3)||isCollided(p,e4)||isCollided(p,e5)){
         gameOn = false;
-        window.alert("GAME OVER WITH SCORE : "+score);
+        window.alert("Not a Gamer if you're score is less than "+(score+1)+" :-(  Your Score: "+score);
     }
     drawBox(p);
     drawBox(e1);
