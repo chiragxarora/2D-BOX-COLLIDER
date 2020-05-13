@@ -29,6 +29,8 @@ class Player extends Box {
             pen.clearRect(this.x,this.y,this.size,this.size);
             this.x = 0;
             this.y = 200;
+            this.speedx = 0;
+            this.speedy = 4;
         }
         if(this.y + this.size >= 450){
             this.speedy = -1 * (Math.abs(this.speedy)) ;
