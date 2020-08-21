@@ -35,6 +35,5 @@ class Enemy extends Box {
     this.x = (Factor + 1) * 120;
     this.speedy -= 7;
     this.speedy += Factor;
-    console.table(this);
   }
 }
